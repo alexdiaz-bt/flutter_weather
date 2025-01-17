@@ -1,0 +1,32 @@
+name: flutter_weather
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^8.0.3
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
+  http: ^1.2.2
+  drift: ^2.23.1
+  drift_flutter: ^0.2.4
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  drift_dev: ^2.23.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
